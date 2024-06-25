@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        jdk 'Default' // Ensure 'Default' matches the JDK installation name in Jenkins
-        maven 'Maven' // Ensure 'Maven' matches the Maven installation name in Jenkins
+        jdk 'defaultJDK' // Ensure this matches the name you gave the JDK installation in Jenkins
+        maven 'defaultMaven' // Ensure this matches the name you gave the Maven installation in Jenkins
     }
 
     stages {
